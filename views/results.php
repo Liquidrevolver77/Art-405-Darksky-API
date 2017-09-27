@@ -20,7 +20,7 @@
   </div>
   <div class="row">
     <?php foreach($forecast['daily']['data'] as $day): ?>
-      <div class="col-12 col-md-3">
+      <div class="col-12 col-md-4">
         <div class="card p-4 my-5 mx-auto"">
           <p class="lead m-0">
             <?php echo gmdate("l", $day['time']); ?>
