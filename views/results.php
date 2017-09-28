@@ -6,6 +6,9 @@
   <h1>
     DarkSky API
   </h1>
+  <div class="text-left py-5 mx-auto" style="max-width: 320px;">
+    <?php include 'partials/form.php'; ?>
+  </div>
   <div class="card p-4 my-5 mx-auto" style="max-width: 320px;">
     <p class="lead text-bold m-0"><?php echo $place; ?></p>
     <h2 class="display-1 mb-0">
